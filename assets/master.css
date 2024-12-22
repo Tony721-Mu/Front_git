@@ -1,0 +1,61 @@
+/* Any Element With Class Title */
+.title {
+}
+
+/* Any Element With Id Title */
+#nav {
+}
+
+/* Any Element With Selector  Title*/
+div {
+}
+
+/* Any Element With tag  Title*/
+h2 {
+}
+/* Valid */
+._user-name {
+}
+
+/* Valid */
+.-user-name {
+}
+
+/* not Valid */
+.1user-name {
+}
+
+/* not Valid */
+.@user-name {
+}
+
+/* not Valid */
+.user@name {
+}
+
+/* Valid */
+._user10name {
+}
+
+/* Valid */
+.u {
+}
+/* bad */
+.USERNAME {
+}
+
+/* bad */
+.UserName {
+}
+
+/* good */
+.user-name {
+}
+
+/* bad */
+.userName {
+}
+
+/* bad */
+.usernameprofile {
+}
